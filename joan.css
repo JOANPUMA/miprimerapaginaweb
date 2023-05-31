@@ -1,0 +1,90 @@
+body{
+    color: aqua;
+    background-color: blueviolet;
+}
+h1{
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    padding: 10px;
+    margin: 20px;
+}
+h2{
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 40px;
+    margin: 40px;
+}
+#mi-id{
+    color: black;
+    margin: 50px;
+    padding: 50px;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}#p{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    margin: 60px;
+    padding: 60px;
+}
+.container-nav {
+    display: flex;
+    padding: 10px;
+    height: 50px;
+    background-color: black;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.brand {
+    display: flex;
+    align-items: center;
+}
+li>a {
+    padding: 8px 24px;
+}
+li {
+    list-style-type: none;
+}
+a {
+    color: antiquewhite;
+    text-decoration: none;
+}
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+.button-menu-toggle {
+    display: none;
+}    
+#jo {
+    color: brown;
+    margin: 50px;
+}
+#po {
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+}
+.img-container {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+main {
+    height: 200px;
+    width: 200px;
+}
+footer {
+    width: 200px;
+    height: 200px;
+}
